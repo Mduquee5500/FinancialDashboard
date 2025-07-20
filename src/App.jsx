@@ -1,12 +1,23 @@
-import { useState } from "react";
+import { TestUserRepository } from "./usecases/tests/TestUserRepository";
+import { TestBudgetRepository } from "./usecases/tests/TestBudgetRepository";
+import TestButton from "./components/ui/TestButton";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div>
-      <p>Hello World!</p>
+      <TestButton
+        text={"Test User Repository"}
+        onClick={() => TestUserRepository()}
+      />
+      <TestButton
+        text={"Test Budget Repository"}
+        onClick={() => TestBudgetRepository()}
+      />
+      <TestButton
+        text={"Test Budget Repository"}
+        onClick={() => TestBudgetRepository()}
+      />
     </div>
   );
 }
