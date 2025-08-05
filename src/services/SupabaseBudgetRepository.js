@@ -65,5 +65,4 @@ export class SupabaseBudgetRepository extends BudgetRepository {
 
         return data
     }
-
 }

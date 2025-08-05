@@ -5,7 +5,7 @@ const TestBudgetRepository = async () => {
     const budgetRepository = new SupabaseBudgetRepository();
 
     // Usar un user_id existente (del test anterior)
-    const userId = "df927aa1-bbbd-4582-9e56-9b72c36b983e";
+    const userId = "68a94582-c7f9-48af-9794-1cec411a309b";
     const monthYear = "2025-01";
 
     // 1. Crear presupuesto

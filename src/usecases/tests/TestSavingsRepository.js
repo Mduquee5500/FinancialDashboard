@@ -4,8 +4,8 @@ const TestSavingsRepository = async () => {
     const savingsRepository = new SupabaseSavingsRepository();
 
     // Usar IDs existentes de tests anteriores
-    const userId = "df927aa1-bbbd-4582-9e56-9b72c36b983e";
-    const budgetId = "f41bb5b0-dd0c-4590-a9de-d49e70332a85";
+    const userId = "68a94582-c7f9-48af-9794-1cec411a309b";
+    const budgetId = "260deb37-a412-44d7-bc92-073074c326ec";
 
     // 1. Obtener ahorros actuales
     console.log("=== OBTENIENDO AHORROS ACTUALES ===");
